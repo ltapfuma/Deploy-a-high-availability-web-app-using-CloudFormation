@@ -1,0 +1,450 @@
+Log information for UserData scripts:
+Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'init-local' at Sat, 13 Jun 2020 23:24:02 +0000. Up 
+9.66 seconds.
+Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'init' at Sat, 13 Jun 2020 23:24:06 +0000. Up 12.71 
+seconds.
+ci-info: +++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++++
+ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+ci-info: | Device |  Up  |          Address          |      Mask     | Scope  |     Hw-Address    |
+ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+ci-info: |  ens5  | True |         10.0.0.76         | 255.255.255.0 | global | 02:7f:08:0e:93:e0 |
+ci-info: |  ens5  | True | fe80::7f:8ff:fe0e:93e0/64 |       .       |  link  | 02:7f:08:0e:93:e0 |
+ci-info: |   lo   | True |         127.0.0.1         |   255.0.0.0   |  host  |         .         |
+ci-info: |   lo   | True |          ::1/128          |       .       |  host  |         .         |
+ci-info: +--------+------+---------------------------+---------------+--------+-------------------+
+ci-info: ++++++++++++++++++++++++++++Route IPv4 info+++++++++++++++++++++++++++++
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: | Route | Destination | Gateway  |     Genmask     | Interface | Flags |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: |   0   |   0.0.0.0   | 10.0.0.1 |     0.0.0.0     |    ens5   |   UG  |
+ci-info: |   1   |   10.0.0.0  | 0.0.0.0  |  255.255.255.0  |    ens5   |   U   |
+ci-info: |   2   |   10.0.0.1  | 0.0.0.0  | 255.255.255.255 |    ens5   |   UH  |
+ci-info: +-------+-------------+----------+-----------------+-----------+-------+
+ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: | Route | Destination | Gateway | Interface | Flags |
+ci-info: +-------+-------------+---------+-----------+-------+
+ci-info: |   1   |  fe80::/64  |    ::   |    ens5   |   U   |
+ci-info: |   3   |    local    |    ::   |    ens5   |   U   |
+ci-info: |   4   |   ff00::/8  |    ::   |    ens5   |   U   |
+ci-info: +-------+-------------+---------+-----------+-------+
+Generating public/private rsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_rsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub.
+The key fingerprint is:
+SHA256:iuifcLsyfAfXzQXs/GDiIErEjEXVmG7RcOceo+tifRE root@ip-10-0-0-76
+The key's randomart image is:
++---[RSA 2048]----+
+| *o.o*. ..       |
+|. + +.oo  o      |
+| . . .  +o .     |
+|  . + .oEo= .    |
+| . o ..+S* +     |
+|  .....o+ o .    |
+| .o o+o  .       |
+| .+o++o .        |
+|  .*=+..         |
++----[SHA256]-----+
+Generating public/private dsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_dsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_dsa_key.pub.
+The key fingerprint is:
+SHA256:OFkrCG9v2p9lyijwlPZtNPMT4aZBfGtymkM8imQ1VDg root@ip-10-0-0-76
+The key's randomart image is:
++---[DSA 1024]----+
+|       o.        |
+|      E          |
+|  .  . o.        |
+|   o .o+o.o      |
+|    +o=+So o     |
+|  ..*. oX B      |
+|   B oo= #o.     |
+|    ++ooB=o      |
+|    ..oo=. .     |
++----[SHA256]-----+
+Generating public/private ecdsa key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key.
+Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub.
+The key fingerprint is:
+SHA256:x7HN/aiEPvLit+cRuAlGIeKs/QWmDsb7hqAxGZEu7wA root@ip-10-0-0-76
+The key's randomart image is:
++---[ECDSA 256]---+
+| .  . . .        |
+|o  o . . .       |
+|..  o o . .      |
+|Eo o o o . * .   |
+|o+= o   S = + .  |
+|*..+ . o o + . o |
+|.*... .   + o . .|
+|. o..   o.o..o   |
+|   ..  ..=+=o    |
++----[SHA256]-----+
+Generating public/private ed25519 key pair.
+Your identification has been saved in /etc/ssh/ssh_host_ed25519_key.
+Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub.
+The key fingerprint is:
+SHA256:fQLdL4GBQOIihye/m+yrTFR+U1wDuSmDB1lh1cxruas root@ip-10-0-0-76
+The key's randomart image is:
++--[ED25519 256]--+
+|    +==+*+.      |
+| . +....o=.+     |
+|+ +.+  o+ = o    |
+| *oo +.o *   o   |
+| ....oo S + o .  |
+|.  .. .  . o .   |
+| ..       .      |
+|o. o     .       |
+|.+*.   E.        |
++----[SHA256]-----+
+Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'modules:config' at Sat, 13 Jun 2020 23:24:18 +0000.
+ Up 25.08 seconds.
+Hit:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic InRelease
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 Packages [8570 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe Translation-en [4941 kB]
+Get:6 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/multiverse amd64 Packages [151 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/multiverse Translation-en [108 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [969 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [329 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/restricted amd64 Packages [60.5 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/restricted Translation-en [14.7 kB]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1081 kB]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [336 kB]
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 Packages [15.9 kB]
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/multiverse Translation-en [6420 B]
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/main amd64 Packages [7516 B]
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/main Translation-en [4764 B]
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [7484 B]
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-backports/universe Translation-en [4436 B]
+Get:21 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [746 kB]
+Get:22 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [236 kB]
+Get:23 http://security.ubuntu.com/ubuntu bionic-security/restricted amd64 Packages [50.8 kB]
+Get:24 http://security.ubuntu.com/ubuntu bionic-security/restricted Translation-en [12.3 kB]
+Get:25 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [673 kB]
+Get:26 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [223 kB]
+Get:27 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 Packages [7808 B]
+Get:28 http://security.ubuntu.com/ubuntu bionic-security/multiverse Translation-en [2856 B]
+Fetched 18.8 MB in 3s (5943 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  docutils-common libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2 libpaper-utils
+  libpaper1 libtiff5 libwebp6 libwebpdemux2 libwebpmux3 python3-botocore
+  python3-dateutil python3-docutils python3-jmespath python3-olefile
+  python3-pil python3-pygments python3-roman python3-rsa python3-s3transfer
+  sgml-base xml-core
+Suggested packages:
+  liblcms2-utils docutils-doc fonts-linuxlibertine | ttf-linux-libertine
+  texlive-lang-french texlive-latex-base texlive-latex-recommended
+  python-pil-doc python3-pil-dbg ttf-bitstream-vera sgml-base-doc zip
+  debhelper
+The following NEW packages will be installed:
+  awscli docutils-common libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2
+  libpaper-utils libpaper1 libtiff5 libwebp6 libwebpdemux2 libwebpmux3
+  python3-botocore python3-dateutil python3-docutils python3-jmespath
+  python3-olefile python3-pil python3-pygments python3-roman python3-rsa
+  python3-s3transfer sgml-base unzip xml-core
+0 upgraded, 25 newly installed, 0 to remove and 69 not upgraded.
+Need to get 4718 kB of archives.
+After this operation, 41.4 MB of additional disk space will be used.
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libjpeg-turbo8 amd64 1.5.2-0ub
+untu5.18.04.4 [110 kB]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 sgml-base all 1.29 [12.3 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 python3-dateutil all 2.6.1-1 [52.3 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 xml-core all 0.18 [21.3 kB]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 docutils-common all 0.14+dfsg-3 [156 k
+B]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 python3-roman all 2.0.0-3 [8624 B]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 python3-docutils all 0.14+dfsg-3 [363 
+kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-jmespath all 0.9.3-1ubuntu
+1 [18.7 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-botocore all 1.8.48+repack
+-1 [1764 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-rsa all 3.4.2-1 [29.0 kB]
+Get:11 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 python3-s3transfer all 0.1.13-1 [
+39.8 kB]
+Get:12 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/universe amd64 awscli all 1.14.44-1ubuntu1 [482 
+kB]
+Get:13 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libjpeg8 amd64 8c-2ubuntu8 [2194 B]
+Get:14 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 liblcms2-2 amd64 2.9-1ubuntu0
+.1 [139 kB]
+Get:15 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libpaper1 amd64 1.1.24+nmu5ubuntu1 [1
+3.6 kB]
+Get:16 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libpaper-utils amd64 1.1.24+nmu5ubunt
+u1 [8170 B]
+Get:17 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libjbig0 amd64 2.1-3.1build1 [26.7 kB
+]
+Get:18 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libtiff5 amd64 4.0.9-5ubuntu0
+.3 [153 kB]
+Get:19 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libwebp6 amd64 0.6.1-2 [185 kB]
+Get:20 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libwebpdemux2 amd64 0.6.1-2 [9472 B]
+Get:21 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libwebpmux3 amd64 0.6.1-2 [19.6 kB]
+Get:22 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 python3-olefile all 0.45.1-1 [33.3 kB
+]
+Get:23 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 python3-pil amd64 5.1.0-1ubun
+tu0.2 [329 kB]
+Get:24 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 python3-pygments all 2.2.0+dfsg-1 [57
+4 kB]
+Get:25 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 unzip amd64 6.0-21ubuntu1 [167 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 4718 kB in 0s (37.3 MB/s)
+Selecting previously unselected package libjpeg-turbo8:amd64.
+(Reading database ... 75%
+(Reading database ... 56588 files and directories currently installed.)
+Preparing to unpack .../00-libjpeg-turbo8_1.5.2-0ubuntu5.18.04.4_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (1.5.2-0ubuntu5.18.04.4) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../01-sgml-base_1.29_all.deb ...
+Unpacking sgml-base (1.29) ...
+Selecting previously unselected package python3-dateutil.
+Preparing to unpack .../02-python3-dateutil_2.6.1-1_all.deb ...
+Unpacking python3-dateutil (2.6.1-1) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../03-xml-core_0.18_all.deb ...
+Unpacking xml-core (0.18) ...
+Selecting previously unselected package docutils-common.
+Preparing to unpack .../04-docutils-common_0.14+dfsg-3_all.deb ...
+Unpacking docutils-common (0.14+dfsg-3) ...
+Selecting previously unselected package python3-roman.
+Preparing to unpack .../05-python3-roman_2.0.0-3_all.deb ...
+Unpacking python3-roman (2.0.0-3) ...
+Selecting previously unselected package python3-docutils.
+Preparing to unpack .../06-python3-docutils_0.14+dfsg-3_all.deb ...
+Unpacking python3-docutils (0.14+dfsg-3) ...
+Selecting previously unselected package python3-jmespath.
+Preparing to unpack .../07-python3-jmespath_0.9.3-1ubuntu1_all.deb ...
+Unpacking python3-jmespath (0.9.3-1ubuntu1) ...
+Selecting previously unselected package python3-botocore.
+Preparing to unpack .../08-python3-botocore_1.8.48+repack-1_all.deb ...
+Unpacking python3-botocore (1.8.48+repack-1) ...
+Selecting previously unselected package python3-rsa.
+Preparing to unpack .../09-python3-rsa_3.4.2-1_all.deb ...
+Unpacking python3-rsa (3.4.2-1) ...
+Selecting previously unselected package python3-s3transfer.
+Preparing to unpack .../10-python3-s3transfer_0.1.13-1_all.deb ...
+Unpacking python3-s3transfer (0.1.13-1) ...
+Selecting previously unselected package awscli.
+Preparing to unpack .../11-awscli_1.14.44-1ubuntu1_all.deb ...
+Unpacking awscli (1.14.44-1ubuntu1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../12-libjpeg8_8c-2ubuntu8_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu8) ...
+Selecting previously unselected package liblcms2-2:amd64.
+Preparing to unpack .../13-liblcms2-2_2.9-1ubuntu0.1_amd64.deb ...
+Unpacking liblcms2-2:amd64 (2.9-1ubuntu0.1) ...
+Selecting previously unselected package libpaper1:amd64.
+Preparing to unpack .../14-libpaper1_1.1.24+nmu5ubuntu1_amd64.deb ...
+Unpacking libpaper1:amd64 (1.1.24+nmu5ubuntu1) ...
+Selecting previously unselected package libpaper-utils.
+Preparing to unpack .../15-libpaper-utils_1.1.24+nmu5ubuntu1_amd64.deb ...
+Unpacking libpaper-utils (1.1.24+nmu5ubuntu1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../16-libjbig0_2.1-3.1build1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1build1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../17-libtiff5_4.0.9-5ubuntu0.3_amd64.deb ...
+Unpacking libtiff5:amd64 (4.0.9-5ubuntu0.3) ...
+Selecting previously unselected package libwebp6:amd64.
+Preparing to unpack .../18-libwebp6_0.6.1-2_amd64.deb ...
+Unpacking libwebp6:amd64 (0.6.1-2) ...
+Selecting previously unselected package libwebpdemux2:amd64.
+Preparing to unpack .../19-libwebpdemux2_0.6.1-2_amd64.deb ...
+Unpacking libwebpdemux2:amd64 (0.6.1-2) ...
+Selecting previously unselected package libwebpmux3:amd64.
+Preparing to unpack .../20-libwebpmux3_0.6.1-2_amd64.deb ...
+Unpacking libwebpmux3:amd64 (0.6.1-2) ...
+Selecting previously unselected package python3-olefile.
+Preparing to unpack .../21-python3-olefile_0.45.1-1_all.deb ...
+Unpacking python3-olefile (0.45.1-1) ...
+Selecting previously unselected package python3-pil:amd64.
+Preparing to unpack .../22-python3-pil_5.1.0-1ubuntu0.2_amd64.deb ...
+Unpacking python3-pil:amd64 (5.1.0-1ubuntu0.2) ...
+Selecting previously unselected package python3-pygments.
+Preparing to unpack .../23-python3-pygments_2.2.0+dfsg-1_all.deb ...
+Unpacking python3-pygments (2.2.0+dfsg-1) ...
+Selecting previously unselected package unzip.
+Preparing to unpack .../24-unzip_6.0-21ubuntu1_amd64.deb ...
+Unpacking unzip (6.0-21ubuntu1) ...
+Setting up libpaper1:amd64 (1.1.24+nmu5ubuntu1) ...
+
+Creating config file /etc/papersize with new version
+Setting up libpaper-utils (1.1.24+nmu5ubuntu1) ...
+Setting up python3-roman (2.0.0-3) ...
+Setting up python3-olefile (0.45.1-1) ...
+Setting up liblcms2-2:amd64 (2.9-1ubuntu0.1) ...
+Setting up libjbig0:amd64 (2.1-3.1build1) ...
+Setting up unzip (6.0-21ubuntu1) ...
+Setting up libjpeg-turbo8:amd64 (1.5.2-0ubuntu5.18.04.4) ...
+Setting up sgml-base (1.29) ...
+Setting up python3-rsa (3.4.2-1) ...
+Setting up python3-jmespath (0.9.3-1ubuntu1) ...
+Setting up xml-core (0.18) ...
+Setting up python3-dateutil (2.6.1-1) ...
+Setting up libwebp6:amd64 (0.6.1-2) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu8) ...
+Setting up python3-pygments (2.2.0+dfsg-1) ...
+Setting up libtiff5:amd64 (4.0.9-5ubuntu0.3) ...
+Setting up libwebpmux3:amd64 (0.6.1-2) ...
+Setting up libwebpdemux2:amd64 (0.6.1-2) ...
+Setting up python3-pil:amd64 (5.1.0-1ubuntu0.2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for shared-mime-info (1.9-2) ...
+Processing triggers for sgml-base (1.29) ...
+Setting up docutils-common (0.14+dfsg-3) ...
+Processing triggers for sgml-base (1.29) ...
+Setting up python3-docutils (0.14+dfsg-3) ...
+update-alternatives: using /usr/share/docutils/scripts/python3/rst-buildhtml to provide /usr/bin/rst-buildhtm
+l (rst-buildhtml) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2html to provide /usr/bin/rst2html (rst2htm
+l) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2html4 to provide /usr/bin/rst2html4 (rst2h
+tml4) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2html5 to provide /usr/bin/rst2html5 (rst2h
+tml5) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2latex to provide /usr/bin/rst2latex (rst2l
+atex) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2man to provide /usr/bin/rst2man (rst2man) 
+in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2odt to provide /usr/bin/rst2odt (rst2odt) 
+in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2odt_prepstyles to provide /usr/bin/rst2odt
+_prepstyles (rst2odt_prepstyles) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2pseudoxml to provide /usr/bin/rst2pseudoxm
+l (rst2pseudoxml) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2s5 to provide /usr/bin/rst2s5 (rst2s5) in 
+auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2xetex to provide /usr/bin/rst2xetex (rst2x
+etex) in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rst2xml to provide /usr/bin/rst2xml (rst2xml) 
+in auto mode
+update-alternatives: using /usr/share/docutils/scripts/python3/rstpep2html to provide /usr/bin/rstpep2html (r
+stpep2html) in auto mode
+Setting up python3-botocore (1.8.48+repack-1) ...
+Setting up python3-s3transfer (0.1.13-1) ...
+Setting up awscli (1.14.44-1ubuntu1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
+Suggested packages:
+  www-browser apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+  openssl-blacklist
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
+0 upgraded, 10 newly installed, 0 to remove and 69 not upgraded.
+Need to get 1729 kB of archives.
+After this operation, 6986 kB of additional disk space will be used.
+Get:1 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libapr1 amd64 1.6.3-2 [90.9 kB]
+Get:2 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1 amd64 1.6.1-2 [84.4 kB]
+Get:3 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-dbd-sqlite3 amd64 1.6.1-2 
+[10.6 kB]
+Get:4 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 libaprutil1-ldap amd64 1.6.1-2 [8764 B
+]
+Get:5 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 liblua5.2-0 amd64 5.2.4-1.1build1 [108
+ kB]
+Get:6 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-bin amd64 2.4.29-1ubun
+tu4.13 [1070 kB]
+Get:7 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-utils amd64 2.4.29-1ub
+untu4.13 [83.8 kB]
+Get:8 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2-data all 2.4.29-1ubunt
+u4.13 [160 kB]
+Get:9 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic-updates/main amd64 apache2 amd64 2.4.29-1ubuntu4.
+13 [95.1 kB]
+Get:10 http://us-west-2.ec2.archive.ubuntu.com/ubuntu bionic/main amd64 ssl-cert all 1.0.39 [17.0 kB]
+dpkg-preconfigure: unable to re-open stdin: No such file or directory
+Fetched 1729 kB in 0s (30.2 MB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 75%
+(Reading database ... 59864 files and directories currently installed.)
+Preparing to unpack .../0-libapr1_1.6.3-2_amd64.deb ...
+Unpacking libapr1:amd64 (1.6.3-2) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../1-libaprutil1_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../2-libaprutil1-dbd-sqlite3_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../3-libaprutil1-ldap_1.6.1-2_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.6.1-2) ...
+Selecting previously unselected package liblua5.2-0:amd64.
+Preparing to unpack .../4-liblua5.2-0_5.2.4-1.1build1_amd64.deb ...
+Unpacking liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../5-apache2-bin_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-bin (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../6-apache2-utils_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2-utils (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../7-apache2-data_2.4.29-1ubuntu4.13_all.deb ...
+Unpacking apache2-data (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../8-apache2_2.4.29-1ubuntu4.13_amd64.deb ...
+Unpacking apache2 (2.4.29-1ubuntu4.13) ...
+Selecting previously unselected package ssl-cert.
+Preparing to unpack .../9-ssl-cert_1.0.39_all.deb ...
+Unpacking ssl-cert (1.0.39) ...
+Setting up libapr1:amd64 (1.6.3-2) ...
+Setting up apache2-data (2.4.29-1ubuntu4.13) ...
+Setting up ssl-cert (1.0.39) ...
+Setting up libaprutil1:amd64 (1.6.1-2) ...
+Setting up liblua5.2-0:amd64 (5.2.4-1.1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.6.1-2) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.6.1-2) ...
+Setting up apache2-utils (2.4.29-1ubuntu4.13) ...
+Setting up apache2-bin (2.4.29-1ubuntu4.13) ...
+Setting up apache2 (2.4.29-1ubuntu4.13) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling module reqtimeout.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.ser
+vice.
+Created symlink /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system
+/apache-htcacheclean.service.
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for systemd (237-3ubuntu10.39) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ufw (0.36-0ubuntu0.18.04.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+download: s3://udacity-demo-final/udacity.zip to ./udacity.zip    
+Archive:  udacity.zip
+  inflating: index.html              
+   creating: __MACOSX/
+  inflating: __MACOSX/._index.html   
+Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 running 'modules:final' at Sat, 13 Jun 2020 23:24:19 +0000. 
+Up 26.15 seconds.
+Cloud-init v. 19.4-33-gbb4131a2-0ubuntu1~18.04.1 finished at Sat, 13 Jun 2020 23:24:43 +0000. Datasource Data
+SourceEc2Local.  Up 50.29 seconds

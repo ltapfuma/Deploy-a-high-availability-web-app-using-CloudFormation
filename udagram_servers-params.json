@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdagramWebApp"
+    },
+    {
+        "ParameterKey": "AppImageId",
+        "ParameterValue": "ami-0b33356b362c56df5"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.medium"
+    }
+]
